@@ -1,0 +1,16 @@
+---
+title: "SimpleRMarkDown"
+author: "Lu C"
+date: "September 19, 2017"
+output: 
+html_document:
+  Keep_md:True;
+---
+
+### This is a simple R MarkDown File
+```{r}
+together<-function(x,y){
+  paste(x,"and",y)
+}
+together("Cats","Dogs")
+```
